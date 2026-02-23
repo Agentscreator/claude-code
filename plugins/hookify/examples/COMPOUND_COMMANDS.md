@@ -4,7 +4,7 @@ This example demonstrates how to validate and provide clear visibility into comp
 
 ## The Problem
 
-When Kiro asks for permission to run compound commands like:
+When Claude Code asks for permission to run compound commands like:
 ```bash
 sleep 10 && do-something-totally-different
 ```

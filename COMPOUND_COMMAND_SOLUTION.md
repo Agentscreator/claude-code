@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-When Kiro (Claude Code) asks for permission to run compound shell commands like:
+When Claude Code asks for permission to run compound shell commands like:
 ```bash
 sleep 10 && do-something-totally-different
 ```
@@ -175,7 +175,7 @@ Potential improvements:
 1. **Complex shell syntax** - Advanced features like subshells, redirections, and process substitution are not fully parsed
 2. **Escape sequences** - Complex escaping may not be handled perfectly
 3. **Shell-specific features** - Focuses on common POSIX operators
-4. **Visual only** - This doesn't change how Kiro executes commands, only how they're displayed
+4. **Visual only** - This doesn't change how Claude Code executes commands, only how they're displayed
 
 ## Addressing the Original Concern
 
@@ -190,7 +190,7 @@ This solution addresses it by:
 4. ✅ **Allowing customization** - warn, block, or customize
 5. ✅ **No code changes needed** - Just add a markdown file
 
-While this doesn't change the underlying permission system (that would require changes to Kiro itself), it provides a transparent layer that shows you exactly what's being executed, addressing the trust and visibility concerns.
+While this doesn't change the underlying permission system (that would require changes to Claude Code itself), it provides a transparent layer that shows you exactly what's being executed, addressing the trust and visibility concerns.
 
 ## Recommendation
 

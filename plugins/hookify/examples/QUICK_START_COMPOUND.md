@@ -4,7 +4,7 @@ Get visibility into compound shell commands in 2 minutes.
 
 ## What Problem Does This Solve?
 
-When Kiro asks to run `sleep 10 && rm -rf /tmp/test`, you might see:
+When Claude Code asks to run `sleep 10 && rm -rf /tmp/test`, you might see:
 - ❌ "sleep *" (unclear what else runs)
 - ❌ Single opaque permission request
 - ❌ No visibility into what `&&` means
@@ -26,7 +26,7 @@ cp plugins/hookify/examples/compound-command-validator.local.md \
 
 ## Test It (30 seconds)
 
-Ask Kiro to run a compound command:
+Ask Claude Code to run a compound command:
 ```
 Run: sleep 5 && echo "done" || echo "failed"
 ```
